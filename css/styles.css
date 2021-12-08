@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gui{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gui_turn{
+    text-transform: uppercase;
+}
+
+.board_column {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.board_cell{
+    position: relative;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    height: 90px;
+    width: 90px;
+    margin: 2px;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: grey;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 9px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
